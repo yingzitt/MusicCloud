@@ -3,7 +3,7 @@
     <!-- <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script> -->
     <!-- 标题 -->
     <div class="header-title">
-      <h2 @click="gohome">云音乐播放器By Alive</h2>
+      <h2 @click="gohome">影子音乐播放器By yingzi</h2>
     </div>
     <!-- 返回和前进的按钮 -->
     <div class="btns">

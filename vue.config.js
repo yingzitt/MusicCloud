@@ -42,7 +42,7 @@ module.exports = defineConfig({
     proxy: {
       '/bgapi': {
         // 此处的写法，目的是为了 将 /api 替换成 'https://iw233.cn/api.php'
-        target: 'https://iw233.cn/api.php',
+        target: 'https://api.wuenci.com/meting/api/',
         // 允许跨域
         changeOrigin: true,
         ws: true,
@@ -71,5 +71,5 @@ module.exports = defineConfig({
 })
 
 // publicPath: process.env.NODE_ENV === 'production'
-// ? '/My-Music-Cloud/'//这里写展示页面的仓库名称
+// ? '/Yz-Music-Cloud/'//这里写展示页面的仓库名称
 // : '/',
